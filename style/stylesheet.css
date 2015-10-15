@@ -1,6 +1,11 @@
+* {
+  margin: 0;
+}
+
 body {
 	background-color: lavender;
 }
+
 #pagewrap {
 	padding: 35px;
 	width: 1000px;
@@ -8,6 +13,32 @@ body {
 	background-color: white;
 	border-radius: 25px;
 }
+
+.pspecial{
+	padding:5px;
+	display: block;
+	text-align: right;
+	padding-right: 20px;
+	font-size: 20px;
+	font-family: "Arial";
+	text-decoration: bold;
+}
+
+input {
+  border: 2px solid lightblue;
+  font-size: 18px;
+  outline:none;
+  text-align: center;
+  padding: 5px;
+}
+
+input[type="submit"] {
+  background: red;
+  color: white;
+  cursor:pointer;
+  outline:none;
+  text-align: center;
+    }
 
 .header {
 	height: 40px;
@@ -17,6 +48,7 @@ body {
 	text-align: left;
 	font-family: "Impact";
 	font-size: 40px;
+	margin-top: 30px;
 	margin-bottom: 15px;
 	padding: 30px;
 	background-color: lightblue;
@@ -24,7 +56,7 @@ body {
 
 nav {
     float: right;
-    padding: 30px;
+    padding: 50px;
     display: inline-block;
 }
 
@@ -42,12 +74,14 @@ li{
     font-size: 15px; 
     color: white;
 }
+
 .cupcakes-col, .cookies-col, .cakes-col {
 	display:inline-block;
 	margin: 5px;
+	margin-bottom: 15px;
 	padding: 5px;
 	width: 302px;
-	height: 800px;
+	height: 350px;
 	border: lightblue 4px solid;
 	border-radius: 25px;
 	text-align: center;
@@ -60,22 +94,8 @@ li{
 	font-size: 20px;
 	text-align: center;
 	font-family: Arial;
-
+	margin-top: 15px;
 }
-/*.cupcakes-col {
-	float: left;
-	width: 250px;
-}
-
-.cookies-col {
-	float: left;
-	width: 250px%;
-}
-
-.cakes-col {
-	float: left;
-	width: 250px%;
-}*/
 
 img {
 	height: 200px;
@@ -95,7 +115,21 @@ a {
 	text-decoration: none;
 }
 
+.footer{
+	height: 40px;
+	width: 921px;
+	border: lightblue 4px solid;
+	border-radius: 25px;
+	text-align: center;
+	font-family: "Impact";
+	font-size: 30px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	padding: 30px;
+	background-color: lightblue;
+}
+
 a:link    {color:blue; background-color:transparent; text-decoration:none}
-a:visited {color:grey; background-color:transparent; text-decoration:none}
-a:hover   {color:red; background-color:transparent; text-decoration:underline; font-size: 110%}
-a:active  {color:yellow; background-color:transparent; text-decoration:underline}}
+a:visited {color:blue; background-color:transparent; text-decoration:none}
+a:hover   {color:red; background-color:transparent; text-decoration:underline}
+a:active  {color:blue; background-color:transparent; text-decoration:underline}}

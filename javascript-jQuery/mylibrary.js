@@ -6,7 +6,7 @@ $(function(){
       $('.fadein :first-child').fadeOut()
          .next('img').fadeIn()
          .end().appendTo('.fadein');}, 
-      3000);
+      1500);
 });
 
 })
