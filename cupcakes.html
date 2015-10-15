@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cupcakes</title>
+		<script src="jquery-2.1.4.js"></script>
+		<script src="mylibrary.js"></script>
+		<style>
+			.fadein { 
+				position:relative; width:500px; height:332px;
+			
+			}
+			.fadein img { 
+				position:absolute; left:55%; top:0; 
+			}
+
+
+			.fadein {
+			    opacity:1;
+			    transition: opacity 1s; 
+			}
+
+			.fadein.fadeOut {
+   				opacity:0;
+			}
+
+			h1 {
+				text-align: center;
+				font-family: "Impact";
+				font-size: 50px;
+			}
+
+			a {
+				font-family: "Verdana";
+				text-decoration: none;
+				color: black;
+			}
+			
+			a:hover {
+				text-decoration: underline;
+				color: lightblue;
+			}
+
+		</style>
+	</head>
+	<body>
+		<h1>Cupcakes: A Variety of Cupcakes We Offer</h2>
+		<div class="fadein">
+		   
+		     <img src="cupcakes.jpg">
+		     <img src="cupcakes1.jpg">
+		     <img src="cupcakes2.jpg">
+		     <img src="cupcakes3.jpg">
+		   
+		</div>
+		<div>
+			<a href="index.html">Go Back to Home Page</a>
+		</div>
+	</body>
+</html>
